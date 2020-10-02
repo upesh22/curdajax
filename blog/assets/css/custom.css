@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	height: 100vh;
+	background: url(ban-1.jpg) center fixed;
+	background-repeat:no-repeat;
+}
+.wrapper{
+	height: 100vh;
+}
+.myColor{
+	background-image: linear-gradient(to right,#9FA7FA 50%, #2E40FA 100%);
+}
+.myShadow{
+	box-shadow: 0 5px 10px #111;
+}
+.myBtn{
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	border:none;
+	background-image: linear-gradient(to right, #aac2e3 0%, #495aff 100%);
+}
+.myBtn:hover{
+	background-image: linear-gradient(to right, #495aff 0%, #aac2e3 100%);
+}
+.myHr{
+	height: 2px;
+	border-radius: 100px;
+}
+.myLinkBtn{
+	border-radius: 100px;
+	width: 50%;
+	border: 2px solid #fff;
+}
+@media screen (max-width: 720px) {
+	.wrapper{
+		margin: 2px;
+	}
+}
